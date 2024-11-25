@@ -1,0 +1,138 @@
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h1, button {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* HelloWorld Component Styling */
+h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #4caf50; /* Green color for greeting */
+}
+
+/* Counter Component Styling */
+.counter {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.counter h1 {
+  font-size: 48px;
+  color: #ff5722; /* Red color for counter */
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* FilteredList Component Styling */
+.filter-list {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.filter-list input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.filter-list input:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+.filter-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.filter-list li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+  text-align: left;
+}
+
+/* Dropdown Styling (if you add it in FilteredList later) */
+.dropdown {
+  margin-top: 20px;
+}
+
+/* General Container Styling */
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
